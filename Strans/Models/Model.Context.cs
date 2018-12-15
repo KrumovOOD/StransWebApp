@@ -26,5 +26,6 @@ namespace Strans.Models
         }
     
         public virtual DbSet<Credential> Credentials { get; set; }
+        public virtual DbSet<Record> Records { get; set; }
     }
 }

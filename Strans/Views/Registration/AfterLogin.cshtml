@@ -1,15 +1,5 @@
 ﻿
-@{
-    ViewBag.Title = "AfterLogin";
-}
+<body style="background-image: url(/Content/Images/Background.jpg)">
 
-<h2>AfterLogin</h2>
+</body>
 
-
-@if (Session["UserID"]!=null)
-{
-    <div>
-        <a href="#">@Session["UserName"]</a><br />
-        <a href="/Registration/Logout">Logout</a>
-    </div>
-}

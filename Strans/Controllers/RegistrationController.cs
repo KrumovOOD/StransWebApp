@@ -88,7 +88,7 @@ namespace Strans.Controllers
         {
             Session.Clear();
             Session.Abandon();
-            return RedirectToAction("Index");
+            return RedirectToAction( "Index" );
         }
 
 

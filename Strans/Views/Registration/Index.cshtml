@@ -4,6 +4,10 @@
     Layout = null;
 }
 
+<body style="background-image: url(/Content/Images/Background.jpg)">
+
+</body>
+
 <script src="~/Scripts/jquery-3.3.1.min.js"></script>
 <script src="~/Scripts/bootstrap.min.js"></script>
 <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
@@ -122,7 +126,7 @@
             return false;
         }
         var data = $("#Registration").serialize();
-      
+
         $.ajax({
 
             type: "post",
@@ -136,8 +140,8 @@
             }
         });
     }
- 
-   
+
+
     $("#msg").hide();
 
     var Login = function () {
@@ -147,7 +151,7 @@
         var pass = $('#logPassword').val();
 
         var data = $("#loginForm").serialize;
-        
+
         $.ajax({
 
             type: "post",
